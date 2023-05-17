@@ -1,0 +1,63 @@
+body {
+	font-size: 16px;
+	font-style: normal;
+	font-family: Arial, sans-serif;
+	color: black;
+}
+
+h1, h2 {
+	font-size: 36px;
+	font-weight: bold;
+	color: darkblue;
+}
+
+a {
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+
+/* Borders */
+header, nav ul li, main section {
+	border: 2px solid blue;
+	border-radius:5px;
+}
+
+/* Padding */
+header, main section {
+	padding: 15px;
+}
+
+/* Hover */
+nav ul li:hover {
+    Background-color:lightblue;
+    color: black;
+}
+
+/* Styling section 2 */
+main section:nth-child(2)
+ {
+	border-style:dashed;
+	background-color:pink;
+}
+
+main section:nth-child(1)
+ {
+	border-style:dotted;
+	background-color:pink;
+}
+
+
+
+/* Background color */
+header {
+	background-color: white;
+}
+
+/* Section margin */
+section {
+	margin: 20px;
+	
+}
+
